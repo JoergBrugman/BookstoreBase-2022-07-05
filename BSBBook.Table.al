@@ -117,6 +117,9 @@ table 50100 "BSB Book"
         "Last Date Modified" := Today;
     end;
 
+    /// <summary>
+    /// Test, ob Buch gesperrt ist und ggf. Fehler werfen
+    /// </summary>
     procedure TestBlocked()
     begin
         TestField(Blocked, false);
