@@ -34,12 +34,12 @@ table 50100 "BSB Book"
             Caption = 'Blocked';
             DataClassification = ToBeClassified;
         }
-        field(5; Type; Option)
+        field(5; Type; Enum "BSB Book Type")//Option)
         {
             Caption = 'Type';
             DataClassification = ToBeClassified;
-            OptionMembers = " ",Hardcover,Paperback;
-            OptionCaption = ' ,Hardcover,Paperback';
+            // OptionMembers = " ",Hardcover,Paperback;
+            // OptionCaption = ' ,Hardcover,Paperback';
         }
         field(7; Created; Date)
         {
@@ -117,6 +117,11 @@ table 50100 "BSB Book"
         "Last Date Modified" := Today;
     end;
 
+    trigger OnDelete()
+    begin
+        Error(OnDeleteBookErr);
+    end;
+
     /// <summary>
     /// Test, ob Buch gesperrt ist und ggf. Fehler werfen
     /// </summary>
@@ -144,4 +149,7 @@ table 50100 "BSB Book"
     begin
         Page.Run(Page::"BSB Book Card", BSBBook);
     end;
+
+    var
+        OnDeleteBookErr: Label 'A Book cannot be deleted';
 }
