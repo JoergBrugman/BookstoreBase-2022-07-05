@@ -118,7 +118,12 @@ table 50100 "BSB Book"
     end;
 
     trigger OnDelete()
+    var
+        Handled: Boolean;
     begin
+        OnBeforeDeleteBook(Rec, Handled);
+        if Handled then
+            exit;
         Error(OnDeleteBookErr);
     end;
 
@@ -150,6 +155,12 @@ table 50100 "BSB Book"
         Page.Run(Page::"BSB Book Card", BSBBook);
     end;
 
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeDeleteBook(Rec: Record "BSB Book"; var Handled: Boolean)
+    begin
+    end;
+
     var
         OnDeleteBookErr: Label 'A Book cannot be deleted';
+        XXXXXXMsg: Label 'XXXXXXXXXXXX';
 }

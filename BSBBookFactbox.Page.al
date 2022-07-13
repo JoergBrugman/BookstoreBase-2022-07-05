@@ -16,7 +16,6 @@ page 50102 "BSB Book Factbox"
                 ToolTip = 'Specifies the value of the No. field.';
                 ApplicationArea = All;
 
-                //TODO Kartenaufruf fehlt noch
                 trigger OnDrillDown()
                 begin
                     ShowDetail();
