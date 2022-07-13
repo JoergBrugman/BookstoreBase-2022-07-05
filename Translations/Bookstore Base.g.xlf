@@ -118,6 +118,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit BSB Subcriber Store - NamedType FavoriteBookHintMsg</note>
         </trans-unit>
+        <trans-unit id="Page 1869352431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB BingMapsCardPart - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2961589650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book Card</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -28,5 +28,6 @@
   "runtime": "8.0",
   "features": [
     "TranslationFile"
-  ]
+  ],
+  "target": "OnPrem"
 }
