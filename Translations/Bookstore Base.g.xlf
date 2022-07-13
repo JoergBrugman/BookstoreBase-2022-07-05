@@ -83,6 +83,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BSB Book - Field Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3073577260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BSB Internal Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3073577260 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BSB Internal Log - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3073577260 - Field 3133801257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BSB Internal Log - Field Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3073577260 - Field 1249475212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BSB Internal Log - Field Created - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3073577260 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BSB Internal Log - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3073577260 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BSB Internal Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1178875815 - NamedType 1969826809" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do not forget to enter %1 in %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -242,6 +272,16 @@
           <source>Specifies the value of the No. of Pages field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Control No. of Pages - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 3076335414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Book Sales Process action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action BookSalesProcess - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2834728084 - Action 3076335414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Sales Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB Book List - Action BookSalesProcess - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2834728084 - Action 3245378402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Create Books action.</source>
